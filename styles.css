@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #f0f2f5;
+  height: 670px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.border {
+  border: solid;
+  display: grid;
+  place-items: center;
+  color: white;
+  border-radius: 20px;
+  height: 350px;
+}
+
+.input-1 {
+  background-color: white;
+  width: 370px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.outbox {
+  margin-top: 10px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.facebook {
+  margin-bottom: 100px;
+  margin-left: 250px;
+  width: 530px;
+}
+
+.login {
+  position: absolute;
+  margin-top: 70px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #dddfe2}
+  
+  
